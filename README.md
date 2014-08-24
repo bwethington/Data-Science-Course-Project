@@ -13,10 +13,10 @@ Run_Analysis.R
 ===========================
 run_analysis.R is a script that manipulates the train/test data by merging the datasets, giving meaningful labels along with merging the data about the subjects and the activities the subjects are performing into a single file. The script writes a couple of files while also outputting a table as the final output.
 
-Files outputted:
-1) experiment_data.txt: experiment_data is the merge of training/test sets. It also merges the subject data to include the subject and activitiy columns in the file. Finally, this file extracts out only the variables in which the mean or std was calculated on the signals. This does not include meanFrequency and/or the derivate variables.
-2) activity_experiment_mean.txt: file contains the column mean of the data in experiment_data.txt
-3)Final output: final output is the same table that is written to activity_experiment_mean.txt
+Files outputted: \n
+1) experiment_data.txt: experiment_data is the merge of training/test sets. It also merges the subject data to include the subject and activitiy columns in the file. Finally, this file extracts out only the variables in which the mean or std was calculated on the signals. This does not include meanFrequency and/or the derivate variables.\n
+2) activity_experiment_mean.txt: file contains the column mean of the data in experiment_data.txt\n
+3)Final output: final output is the same table that is written to activity_experiment_mean.txt\n
 
 More details on how the data was processed is as follows;
 1.Merges the training and the test sets to create one data set.
