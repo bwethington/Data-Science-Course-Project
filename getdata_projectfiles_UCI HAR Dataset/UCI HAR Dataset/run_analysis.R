@@ -49,7 +49,7 @@ avg_table <- aggregate(final_table[,3:dim(final_table)[2]], by=list(final_table$
 colnames(avg_table) <- c("subjects", "activity", colnames(avg_table)[3:dim(avg_table)[2]])
 
 #Write to a file
-write.table(avg_table, "experiment_data_mean.txt", sep="\t", row.names=FALSE)
+write.table(avg_table, "activity_experiment_mean_data.txt", sep="\t", row.names=FALSE)
 
 #output table
 final_table
