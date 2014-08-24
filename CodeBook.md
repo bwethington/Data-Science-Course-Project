@@ -6,10 +6,11 @@ Description
 This file contains a description of the variables in the `activity_experiment_meant.txt` file which is a tab separated file along witht the columns where you can find it. Also contains the range for the id variables.
 
 * `subject` - The id associated with the subject that participated in the experiment. 
-  * (Column: 1)
+  * Column: 1
   * Range of values: 1-30
-* `activity` - The activities that the subjects did during the experiment. (Column: 2)
-  -Range of values: Laying, Sitting, Standing, Walking, Walking_Downstairs, Walking_Upstairs
+* `activity` - The activities that the subjects did during the experiment.
+ * (Column: 2)
+ * Range of values: Laying, Sitting, Standing, Walking, Walking_Downstairs, Walking_Upstairs
 * `tBodyAcc.mean.X` - The time domain signal of the body acceleration mean on X axis. (Column: 3)
 * `tBodyAcc.mean.Y` - The time domain signal of the body acceleration mean on Y axis. (Column: 4)
 * `tBodyAcc.mean.Z` - The time domain signal of the body acceleration mean on Z axis. (Column: 5)
