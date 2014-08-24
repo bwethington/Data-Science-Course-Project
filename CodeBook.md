@@ -11,17 +11,17 @@ This file contains a description of the variables in the activity_experiment_mea
 * `activity` - The activities that the subjects did during the experiment.
   Column: 2
   range of values: Laying, Sitting, Standing, Walking, Walking_Downstairs, Walking_Upstairs
-* `tBodyAcc.mean.X` - The time domain signal of the body acceleration on X axis.
+* `tBodyAcc.mean.X` - The time domain signal of the body acceleration mean on X axis.\n
 Column: 3
-* `tBodyAcc.mean.Y` - 
+* `tBodyAcc.mean.Y` - The time domain signal of the body acceleration mean on Y axis.\n
 Column: 4
-* `tBodyAcc.mean.Z` - 
+* `tBodyAcc.mean.Z` - The time domain signal of the body acceleration mean on Z axis.\n
 Column: 5
-* `tBodyAcc.std.X` - 
+* `tBodyAcc.std.X` - The time domain signal of the body acceleration standard deviation on X axis.\n
 Column: 6
-* `tBodyAcc.std.Y` - 
+* `tBodyAcc.std.Y` - The time domain signal of the body acceleration standard deviation on Y axis.\n
 Column: 7
-* `tBodyAcc.std.Z` - 
+* `tBodyAcc.std.Z` - The time domain signal of the body acceleration standard deviation on Z axis.\n
 Column: 8
 * `tGravityAcc.mean.X` - 
 Column: 9
